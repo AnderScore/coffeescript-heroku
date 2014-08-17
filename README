@@ -1,4 +1,2 @@
-npm install express logfmt --save
-npm install --no-bin-links
-
+Start dev
 node index.js

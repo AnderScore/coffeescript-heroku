@@ -1,9 +1,11 @@
 express = require("express")
 logfmt = require("logfmt")
+
 app = express()
 app.use logfmt.requestLogger()
+
 app.get "/", (req, res) ->
-  res.send "Hello World! coffffeeeeeee"
+  res.send "I need coffee now!"
   return
 
 port = Number(process.env.PORT or 5000)
