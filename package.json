@@ -11,5 +11,8 @@
   "dependencies": {
     "logfmt": "^1.1.2",
     "express": "^4.8.4"
+  },
+  "engines": {
+    "node": "0.11.x"
   }
 }
