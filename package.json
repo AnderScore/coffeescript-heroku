@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "coffee-script": "1.7.1",
     "logfmt": "^1.1.2",
     "express": "^4.8.4"
   },
